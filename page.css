@@ -26,8 +26,7 @@
 
     .awesome-container {
         display:flex;
-        flex-direction: row;
-        width: 300px;
+        width: auto;
         padding: 5px 0px 5px 50px;
         }     
 
@@ -40,20 +39,46 @@
          color: #E5E7EB;
          padding: 10px 0px 10px 0px;  }
 
-       .image {
-        margin-left: auto;
-       }  
-
        .tig {
-         width: 350px;
-         height: auto;
+         width: 300px;
+         height: 275px;
+         padding-right: 20px;
        }  
 
        .bone{
          background-color: #3882F6;
          color: white;
-         width: 70px; 
-         justify-content: center;
-         align-items: center; 
         }
+.flex-container2 {
+  display: flex;
+  height: 400px;
+  flex-direction: column;
+  background-color: white;
+}   
+        .some {
+          font-size: 36px;
+          font-weight: extra-bold;
+          color: #1f2937;
+          text-align: center;
+        }  
 
+    .image2-container {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      padding: 15px 40px 0px 40px;
+    }
+       .tig1, .tig2, .tig3, .tig4 {
+         height: 125px;
+         width:  125px;
+       }
+    .txt-container {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      padding: 0px 40px 40px 40px;
+    }    
+    
+      .txt1, .txt2, .txt3, .txt4 {
+        text-align: center;
+      }
