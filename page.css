@@ -51,7 +51,7 @@
         }
 .flex-container2 {
   display: flex;
-  height: 400px;
+  height: auto;
   flex-direction: column;
   background-color: white;
 }   
@@ -82,3 +82,66 @@
       .txt1, .txt2, .txt3, .txt4 {
         text-align: center;
       }
+
+    .quote-container {
+      display: flex;
+      flex-direction: column;
+      background-color: #E5E7EB;
+      height: 400px;
+    }
+       .quote {
+        font-size: 36px;
+        font-style: italic;
+        color: #1f2937;
+        padding: 20px 50px 0px 50px;
+       }
+
+       .quoter {
+        color: black;
+        font-weight: bold;
+        margin-left: auto;
+        padding: 0px 80px 0px 0px;
+       }
+    .call-container {
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      height: 250px;
+      align-items: center;
+      justify-content: center;
+    }
+
+        .call1-container {
+          display: flex;
+          flex-direction: row;
+          background-color: #3882F6;
+          width: 600px;
+        }
+           .action {
+             color: white;
+             padding-left: 20px ;
+             font-weight: bold;
+           }
+           .action2 {
+             color: white;
+             padding-left: 20px;
+           }
+
+           .sign {
+             color: white;
+             background-color: #3882F6;
+             height: 30px;
+             margin-left: 40px;
+             margin-top: 25px;
+             text-align: center;
+           }
+    .footer-container {
+        background-color: #1f2937;
+        height: 100px;
+    }
+         .footertxt {
+          color: white;
+          text-align: center;
+          padding-top: 30pxs;
+         }
+
