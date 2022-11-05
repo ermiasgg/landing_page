@@ -1,43 +1,59 @@
 .flex-container1 {
+    background-color: #1f2937;
+    height: 400px;
     display: flex;
-    height: 100px;
-    gap: 10px;
-    border: 25px red;
-    justify-content: space-around;
-  }
+    flex-direction: column;}
   
-   div {
-    background: #1f2937;
-    padding: 10px;
-  }
-  
-  .one {
-    margin-right: auto;
-    font-size: 24px;
-    color: #F9FAF8;
-    
-  }
-  
-  .two,
-  .three,
-  .four,
-  .six {
-    font-siZe: 18px;
-    color: #E5E7EB;
-  }
-  .five {
-    font-size:48px;
-    font-weight: extra-bold;
-    color: #F9FAF8;
-    width: 350px;
-  }
-  .six {
-    width: 350px;
-  }
+    .header-container{
+      display:flex;
+      flex-direction: row;
+      gap: 15px;
+      align-items: baseline;
+      padding: 5px 50px 15px 50px;  }
 
-  .bone{
-    background-color: #3882F6;
-    justify-content: center;
-    align-items: center;
-    color: white;
-  }
+       .one {
+         font-size: 24px;
+         color: #F9FAF8;
+         margin-right: auto;
+         margin-top: auto;  }
+  
+       .two,
+       .two1,
+       .two2 {
+         font-siZe: 18px;
+         color: #E5E7EB;
+         display: inline;}
+
+    .awesome-container {
+        display:flex;
+        flex-direction: row;
+        width: 300px;
+        padding: 5px 0px 5px 50px;
+        }     
+
+       .three {font-size:48px;
+        font-weight: extra-bold;
+        color: #F9FAF8;}
+         
+       .four {
+         font-size: 18px;
+         color: #E5E7EB;
+         padding: 10px 0px 10px 0px;  }
+
+       .image {
+        margin-left: auto;
+       }  
+
+       .tig {
+         width: 350px;
+         height: auto;
+       }  
+
+       .bone{
+         background-color: #3882F6;
+         color: white;
+         width: 70px; 
+         justify-content: center;
+         align-items: center; 
+        }
+
